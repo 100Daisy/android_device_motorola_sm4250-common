@@ -61,3 +61,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 $(call inherit-product, device/motorola/common/common.mk)
 $(call inherit-product, vendor/motorola/sm4250-common/sm4250-common-vendor.mk)
+
+# Lindroid
+$(call inherit-product, vendor/lindroid/lindroid.mk)
